@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: lightblue;
 }
 
 .container {
@@ -29,7 +29,8 @@ main {
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
+    flex-direction: column;
 }
 
 footer {
@@ -39,12 +40,6 @@ footer {
 img {
     width: 200px;
     height: 150px;
-}
-
-.project1, .project2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 @media screen and (min-width: 400px) {

@@ -3,31 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Grid</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <header>Stephen Anthony Iannacone</header>
-        <main>
-            <div class="project1">
-                <img src="project1/Screenshot of Revised Record Store Main Page.png" alt="Project 1">
+        <header class="grid-header">
+            <h1>Stephen Anthony Iannacone - Portfolio</h1>
+        </header>
+
+        <aside class="grid-aside">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="Simple Web Page/index.html" alt="Practice Activity 1">Project 1</a></li>
+                <li><a href="Simple Web Page with CSS Styling/index.html" alt="Individual Assignment 1">Project 2</a></li>
+                <li><a href="Lab 1: Recipe Website/index.html" alt="Partner Lab 1: Recipe Website">Project 3</a></li>
+                <li><a href="Lab 2: Interactive Website/index.html" alt="Partner Lab 2: Interactive Website">Project 4</a></li>
+                <li><a href="Record Store/index.html" alt="Individual Assignment 2">Project 5</a></li>
+                <li><a href="Responsive Restaurant/index.html" alt="Individual Assignment 3">Project 6</a></li>
+                <li><a href="CSS Transforms and Filters/index.html" alt="Practice Activity 2">Project 7</a></li>
+                <li><a href="AI Links with Bootstrap/index.html" alt="Practice Activity 3">Project 8</a></li>
+                <li><a href="Under Construction/index.html" alt="Practice Activity 4">Final Project</a></li>
+            </ul>
+        </aside>
+
+        <main class="grid-main">
+            <div id="project1" class="project-container">
+                <a href="Simple Web Page/index.html" target="_blank" alt="Practice Activity 1"></a>
+                <img src="assets/Screenshot of my Web Page.png" alt="Practice Activity 1">
+                <p>My Web Page</p>
+            </div>
+            <div id="project2" class="project-container">
+                <a href="Simple Web Page with CSS Styling/index.html" target="_blank" alt="Individual Assignment 1"></a>
+                <img src="assets/Screenshot of my Web Page.png" alt="Individual Assignment 1">
+                <p>Simple Web Page with CSS Styling</p>
+            </div>
+            <div id="project3" class="project-container">
+                <a href="Lab 1: Recipe Website/index.html" target="_blank" alt="Partner Lab 1: Recipe Website"></a>
+                <img src="assets/Screenshot of Recipe Page 1.png" alt="Fettucine Alfredo Recipe Page">
+                <img src="assets/Screenshot of Recipe Page 2.png" alt="Pancakes Recipe Page">
+                <p>Partner Lab 1: Recipe Website</p>
+            </div>
+            <div id="project4" class="project-container">
+                <a href="Lab 2: Interactive Website/index.html" target="_blank" alt="Partner Lab 2: Interactive Website"></a>
+                <img src="assets/Screenshot of Interactive Website.png" alt="Partner Lab 2">
+                <p>Partner Lab 2: Interactive Website</p>
+            </div>
+            <div id="project5" class="project-container">
+                <a href="Record Store/index.html" target="_blank" alt="Individual Assignment 2"></a>
+                <img src="assets/Screenshot of Revised Record Store Main Page.png" alt="Individual Assignment 2">
                 <p>Record Store Website</p>
             </div>
-            <div class="project2">
-                <img src="project2/Screenshot of Top of Restaurant Website.png" alt="Project 2">
+            <div id="project6" class="project-container">
+                <a href="Responsive Restaurant/index.html" target="_blank" alt="Individual Assignment 3"></a>
+                <img src="assets/Screenshot of Top of Restaurant Website.png" alt="Individual Assignment 3"> 
                 <p>Responsive Restaurant Website</p>
             </div>
+            <div id="project7" class="project-container">
+                <a href="CSS Transforms and Filters/index.html" target="_blank" alt="Practice Activity 2"></a>
+                <img src="assets/Screenshot of Grid Layout with CSS Transforms and Filters.png" alt="Practice Activity 2">
+                <p>Grid Layout with CSS Transforms and Filters</p>
+            </div>
+            <div id="project8" class="project-container">
+                <a href="AI Links with Bootstrap/carousel/index.html" target="_blank" alt="Practice Activity 3"></a>
+                <img src="assets/Screenshot of AI Carousel.png" alt="Practice Activity 3">
+                <p>AI Links with Bootstrap</p>
+            </div>
+            <div id="project9" class="project-container">
+                <a href="Under Construction/index.html" target="_blank" alt="Practice Activity 4"></a>
+                <p>Final Project</p>
+            </div>
         </main>
-        <aside>
-            <p><a href="project1/Screenshot of Revised Record Store Main Page.png" alt="Project 1">Project 1</a></p>
-            <br>
-            <p><a href="project2/Screenshot of Top of Restaurant Website.png" alt="Project 2">Project 2</a></p>
-        </aside>
+
         <footer>
             <p>sai5199@psu.edu</p>
             <p>(267) 384-3431</p>
         </footer>
-    </div>
 </body>
 </html>
