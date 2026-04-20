@@ -13,7 +13,7 @@ body {
     grid-template-areas:
         "header header header header"
         "aside main main main"
-        "footer . . .";
+        "footer footer footer footer";
 }
 
 .grid-header {
@@ -44,6 +44,7 @@ footer {
     grid-area: footer;
     background-color: white;
     border: 3px solid black;
+    text-align: left;
 }
 
 img {
