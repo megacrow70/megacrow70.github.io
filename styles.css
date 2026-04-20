@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(254, 206, 101);
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 .grid-aside {
     grid-area: aside;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .grid-main {
