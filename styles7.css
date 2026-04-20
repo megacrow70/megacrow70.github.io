@@ -55,7 +55,7 @@ aside {
     height: 492px;
     text-align: center;
     transform: scaleX(100%);
-    transform: translate(-825px, -638px);
+    transform: translate(-830px, -638px);
     filter: contrast(115%);
     filter: brightness(95%);
     filter: drop-shadow(2px 2px 5px black);
