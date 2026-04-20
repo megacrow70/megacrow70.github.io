@@ -16,16 +16,16 @@ body {
         ". footer . .";
 }
 
-header {
+.grid-header {
     grid-area: header;
 }
 
-aside {
+.grid-aside {
     grid-area: aside;
     font-size: 30px;
 }
 
-main {
+.grid-main {
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
