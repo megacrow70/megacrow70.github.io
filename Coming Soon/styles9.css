@@ -3,10 +3,25 @@ body {
 }
 
 .container {
-    background-color: lightblue;
+    background-color: white;
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+img {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
     display: flex;
     justify-content: center;
     align-items: center;
