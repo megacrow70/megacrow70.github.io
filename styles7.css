@@ -80,7 +80,7 @@ main {
     grid-area: content1;
     height: 235px;
     transform: scaleX(100%);
-    transform: translate(175px, 30px);
+    transform: translate(170px, 30px);
     filter: drop-shadow(2px 2px 5px black);
     align-content: space-around;
 }
@@ -89,7 +89,7 @@ main {
     grid-area: content2;
     border: 3px solid black;
     transform: scaleX(100%);
-    transform: translate(175px, 25px);
+    transform: translate(170px, 25px);
     filter: drop-shadow(2px 2px 5px black);
     align-content: space-around;
 }
