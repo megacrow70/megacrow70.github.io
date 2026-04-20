@@ -22,7 +22,7 @@ header, footer {
     animation-duration: 4s;
     background-color: linear-gradient(rgb(40, 5, 128), rgb(105, 55, 232));
     border: 3px solid black;
-    width: 870px;
+    width: 875px;
     height: 100px;
     text-align: center;
     filter: contrast(75%);
@@ -55,7 +55,7 @@ aside {
     height: 492px;
     text-align: center;
     transform: scaleX(100%);
-    transform: translate(-815px, -638px);
+    transform: translate(-830px, -638px);
     filter: contrast(115%);
     filter: brightness(95%);
     filter: drop-shadow(2px 2px 5px black);
@@ -80,7 +80,7 @@ main {
     grid-area: content1;
     height: 235px;
     transform: scaleX(100%);
-    transform: translate(180px, 30px);
+    transform: translate(178px, 30px);
     filter: drop-shadow(2px 2px 5px black);
     align-content: space-around;
 }
@@ -89,7 +89,7 @@ main {
     grid-area: content2;
     border: 3px solid black;
     transform: scaleX(100%);
-    transform: translate(180px, 25px);
+    transform: translate(178px, 25px);
     filter: drop-shadow(2px 2px 5px black);
     align-content: space-around;
 }
@@ -98,7 +98,7 @@ main {
     grid-area: content3;
     border: 3px solid black;
     transform: scaleX(100%);
-    transform: translate(130px, 25px);
+    transform: translate(128px, 25px);
     filter: drop-shadow(2px 2px 5px black);
     align-content: space-around;
 }
