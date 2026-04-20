@@ -13,7 +13,7 @@ body {
     grid-template-areas:
         "header header header header"
         "aside main main main"
-        ". footer . .";
+        "footer . . .";
 }
 
 .grid-header {
