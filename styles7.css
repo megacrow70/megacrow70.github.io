@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header header header"
+                         "sidebar content1 content1"
+                         "sidebar content2 content3"
+                         "footer footer footer";
+                         gap: 20px;
+}
+
+header, footer {
+    background-color: rgb(67, 24, 174);
+    animation-name: headerAndFooterAnimation;
+    animation-duration: 4s;
+    background-color: linear-gradient(rgb(40, 5, 128), rgb(105, 55, 232));
+    border: 3px solid black;
+    width: 870px;
+    height: 100px;
+    text-align: center;
+    filter: contrast(75%);
+    filter: brightness(200%);
+    transform: scaleX(100%);
+}
+
+header {
+    grid-area: header;
+    filter: drop-shadow(2px 2px 5px black);
+    transform: translate(200px, 30px);
+    align-content: space-around;
+}
+
+footer {
+    grid-area: footer;
+    filter: drop-shadow(2px 2px 5px black);
+    transform: translate(200px, 20px);
+        align-content: space-around;
+}
+
+aside {
+    animation-name: sidebarAnimation;
+    animation-duration: 4s;
+    background-color: linear-gradient(rgb(42, 191, 176), rgb(94, 253, 237));
+    grid-area: aside;
+    background-color: turquoise;
+    border: 3px solid black;
+    width: 250px;
+    height: 492px;
+    text-align: center;
+    transform: scaleX(100%);
+    transform: translate(-840px, -638px);
+    filter: contrast(115%);
+    filter: brightness(95%);
+    filter: drop-shadow(2px 2px 5px black);
+    align-content: space-around;
+}
+
+main {
+    animation-name: contentAnimation;
+    animation-duration: 4s;
+    background-color: linear-gradient(rgb(1, 17, 138), rgb(59, 82, 255));
+    background-color: rgb(0, 30, 255);
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    filter: contrast(75%);
+    filter: brightness(150%);
+}
+
+#content1 {
+    width: 600px;
+    border: 3px solid black;
+    grid-area: content1;
+    height: 235px;
+    transform: scaleX(100%);
+    transform: translate(175px, 30px);
+    filter: drop-shadow(2px 2px 5px black);
+    align-content: space-around;
+}
+
+#content2 {
+    grid-area: content2;
+    border: 3px solid black;
+    transform: scaleX(100%);
+    transform: translate(175px, 25px);
+    filter: drop-shadow(2px 2px 5px black);
+    align-content: space-around;
+}
+
+#content3 {
+    grid-area: content3;
+    border: 3px solid black;
+    transform: scaleX(100%);
+    transform: translate(140px, 25px);
+    filter: drop-shadow(2px 2px 5px black);
+    align-content: space-around;
+}
+
+#content2, #content3 {
+    height: 235px;
+    width: 290px;
+}
+
+@keyframes headerAndFooterAnimation {
+    0% {background-color: rgb(105, 55, 232);}
+    25% {background-color: rgb(67, 24, 174);}
+    50% {background-color: rgb(40, 5, 128);}
+    75% {background-color: rgb(67, 24, 174);}
+    100% {background-color: rgb(105, 55, 232);}
+}
+
+@keyframes sidebarAnimation {
+    0% {background-color: rgb(94, 253, 237);}
+    25% {background-color: rgb(42, 191, 176);}
+    50% {background-color: rgb(24, 155, 141);}
+    75% {background-color: rgb(42, 191, 176);}
+    100% {background-color:rgb(94, 253, 237);}
+}
+
+@keyframes contentAnimation {
+    0% {background-color: rgb(59, 82, 255);}
+    25% {background-color: rgb(1, 19, 154);}
+    50% {background-color: rgb(0, 9, 81);}
+    75% {background-color: rgb(1, 19, 154);}
+    100% {background-color: rgb(59, 82, 255);}
+}
