@@ -71,12 +71,17 @@ img {
 
 @media screen and (min-width: 800px) {
     .container {
+    background-color: rgb(254, 206, 101);
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 100px 500px 100px;
     grid-template-areas:
-        "header . . ."
-        "aside main . ."
-        ". footer . .";
+        "header header header header"
+        "aside main main main"
+        "footer footer footer footer";
     }
 
     img {
