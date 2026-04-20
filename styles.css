@@ -8,7 +8,7 @@ body {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 400px 400px 400px 400px;
     grid-template-rows: 100px 500px 100px;
     grid-template-areas:
         "header header header header"
@@ -78,8 +78,9 @@ img {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 100px 500px 100px;
-    grid-template-areas:
+     grid-template-areas:
         "header header header header"
+        "aside main main main"
         "aside main main main"
         "footer footer footer footer";
     }
