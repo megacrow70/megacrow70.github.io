@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="mainpage" href="portfolio.html">
+   <title>Document</title>
+</head>
+<body>
+   <nav>
+       <a href="portfolio.html" alt="Portfolio Home Page">Back to Main Page</a>
+   </nav>
+   <h1 id="userGreeting">Hello User</h1>
+   <p id="userMessage">Welcome to your new website!</p>
+
+   <hr>
+
+   <h2>Customize the Greeting</h2>
+
+   <label for="userName">Enter your name:</label>
+   <input type="text" id="userName"><br><br>
+
+   <label for="messText">Enter your message:</label>
+   <input type="text" id="messText"><br><br>
+
+   <label for="backgroundColor">Choose background color:</label>
+   <select id="backgroundColor">
+       <option value="">Select a color</option>
+       <option value="white">White</option>
+       <option value="lightblue">Light Blue</option>
+       <option value="lightgreen">Light Green</option>
+       <option value="lightyellow">Light Yellow</option>
+   </select><br><br>
+
+   <button onclick="updatePage()">Submit changes</button>
+
+   <script src="script.js"></script>
+  
+</body>
+</html>
+
