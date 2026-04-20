@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(252, 222, 158);
+    border: solid 1px rgb(0, 0, 0);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(255, 214, 125);
+}
+p, li{
+    font-size: 20px;
+}
+ol, ul{
+    font-size: 30px;
+}
+img {
+    border: solid 1px rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+}
+.ingredients, .instructions {
+    display: block;
+    margin: 20px 0;
+    float: left;
+}
+h2 {
+    border: solid 1px rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 214, 125);
+}
+a {
+   display: inline-block;
+   margin: 10px;
+}
