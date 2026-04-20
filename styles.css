@@ -9,7 +9,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: grid;
     grid-template-columns: 400px 400px 400px 400px;
-    grid-template-rows: 100px 1000px 100px;
+    grid-template-rows: 200px 1000px 200px;
     grid-template-areas:
         "header header header header"
         "aside main main main"
@@ -20,7 +20,8 @@ body {
     grid-area: header;
     background-color: white;
     border: 3px solid black;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .grid-aside {
