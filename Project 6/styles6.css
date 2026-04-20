@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 197, 127);
+    padding: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: brown;
+    padding: 10px;
+    text-shadow: 2px 2px 3px gray;
+    text-align: center;
+}
+
+nav {
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.lunch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.appetizers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.entrees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.pasta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.sides {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.soups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.salads {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.healthy-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.alcoholic-beverages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.non-alcoholic-beverages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.dessert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+main {
+    background-color: bisque;
+}
+
+.lunch-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.appetizer-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.entree-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pasta-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.side-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.soup-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.salad-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.healthy-food-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.alcoholic-drink-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.regular-drink-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dessert-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-info {
+    background: none;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    main > img {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    #address {
+        display: none;
+    }
+    .directions {
+        display: none;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .directions {
+        display: none;
+    }
+}

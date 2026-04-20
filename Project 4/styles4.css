@@ -1,0 +1,19 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   padding: 40px;
+}
+
+input, select {
+   padding: 5px;
+   width: 200px;
+}
+
+button {
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+hr {
+   margin: 40px 0;
+}
