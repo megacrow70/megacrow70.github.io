@@ -31,10 +31,6 @@ body {
 
 .grid-main {
     grid-area: main;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
     border: 3px solid black;
     background-color: rgb(255, 214, 124);
 }
