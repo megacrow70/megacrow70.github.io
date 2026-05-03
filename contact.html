@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Breaking Benjamin</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" crossorigin="anonymous"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4l2 3h10a2 2 0 0 1 2 2z"></path></svg>
+                <strong>Back to Homepage</strong>
+            </a>
+        </div>
+    </header>
+    <main>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or inquiries about Breaking Benjamin, please feel free to reach out to us through the following contact information:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@breakingbenjamin.com">info@breakingbenjamin.com</a></li>
+            <li>Phone: (123) 456-7890</li>
+            <li>Address: 123 Music Street, City, State 12345</li>
+        </ul>
+        <p>Alternatively, you can type in your question by filling out the form down below:</p>
+        <label for="fname">First Name</label>
+        <input type="text" class="contact-form" id="firstName">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" class="contact-form" id="lastName">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" class="contact-form" id="contact-email">
+        <br>
+        <label for="message">Message</label>
+        <input type="text" class="contact-form" id="userMessage">
+        <p>
+            <button id="send-form-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact-modal">Submit Form</button>
+        </p>
+
+        <div class="alert alert-success collapse" role="alert" id="conf-alert">
+            <strong>Thank you!</strong> You will be getting a confirmation email soon.
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="contact-footer">
+            <p>2026 &copy; All rights reserved.</p>
+            <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
